@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(img/bgImg.png);
+    color: white;
+    font-family: 'Helvetica';
+}
+h1 {
+    font-size: 70px;
+    grid-column: span 12;
+}
+h2 {
+    font-family: 'HelveticaThin';
+    font-size: 50px;
+    grid-column: span 12; 
+}
+.form {
+    margin: 50px 235px;
+    display: grid;
+    grid-template-columns: 1fr repeat(12, 60px)
+}
+.intro {
+    grid-column: span 6; 
+    margin: 40px 0;
+    font-size: 14px;
+}
+.plane {
+    grid-column: span 3;
+    transform: rotate(15deg); 
+}
+@font-face { 
+    font-family: 'Helvetica'; 
+    src: url('fonts/Helvetica.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+} 
+@font-face { 
+    font-family: 'HelveticaThin'; 
+    src: url('fonts/HelveticaThin.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
