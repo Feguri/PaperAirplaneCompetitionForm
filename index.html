@@ -9,14 +9,86 @@
 </head>
 <body>
     <section class="form">
-        <h1><b>Paper Airplane</b></h1>
-        <h2>Olympics!</h2>
-        <p class="intro">This is a contest for students in Montreal between the ages of 5 to 16 who want to enter in the competition. <br><br>
-            Where?
+        <div class="container2">
+             <div class="header-text">
+                <h1><b>Paper Airplane</b></h1>
+                <h2>Olympics!</h2>
+                <p class="intro">This is a contest for students in Montreal between the ages of 5 to 16 who want to enter in the competition. 
+                </p>
+            </div>
+            <img class="plane" src="img/paperPlane.svg" alt="Vector image of a paper airplane. Designed by Felipe Serrou Camy de Paiva">
+        </div>
+       
 
-        </p>
-        <img class="plane" src="img/paperPlane.svg" alt="">
+        <div class="container">
+            <div class="form-intro">
+                <p>WHERE?</p>
+                <div class="img-and-text">
+                    <img class="pinpoint" src="img/pinpoint.png" alt="Pinpoint Icon">
+                    <p>400 Boulevard Cote Vertu
+                    Ouest, Dorval, Quebec H4S
+                    1Y9</p>
+                    
+                </div>
+                
+                <p>Complete this form to enter the competition!</p>
+            </div>
+            <form action="" class="flex">
+                <div class="input-container">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required size="30">
+                </div>
+                <div class="input-container">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required size="30">
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required size="30">
+                </div>
+                <div class="input-container">
+                    <label for="tel">Telephone</label>
+                    <input type="text" id="tel" name="tel" required size="30">
+                </div>
+                <div class="input-container">
+                    <label for="add">Address</label>
+                    <input type="text" id="add" name="add" required size="50">
+                </div>
+                <div class="input-container">
+                    <label for="postal">Postal Code</label>
+                    <input type="text" id="postal" name="postal" required size="10">
+                </div>
+                <div class="input-container">
+                    <label for="math">Simple math question 22+46 =</label>
+                    <input type="number" id="math" name="math" required size="10">
+                </div>
+                <div class="input-container">
+                    <label for="hear">Where did you hear about us?</label>
+                    <textarea id="hear" name="hear" rows="4" cols="50"></textarea>
+                </div>
+                <div class="container3 mt">
+                <input  class="btn" id="sumbmit" type="submit" value="Submit">
+                <input class="btn" type="reset" value="Reset" id="reset"> 
+                </div>
+
+            </form>
+            
+
+        </div>
+
+
+
+        </div>
+
     </section>
+    <footer>
+        <p>
+            These Terms and Conditions consitute a legally binding agreement made between you and the company. By entering the
+contest, you agree to these official rules, which form a contract, so read them
+carefully before entering. This contract includes indemnities from you and a limitation of your rights
+and remedies which may not apply to residents of your state.
+        </p>
+    </footer>
 
 </body>
 </html>
